@@ -1,0 +1,54 @@
+* {
+	min-height: 10px;
+}
+body {
+	background: black;
+}
+
+.bitcount-prop-double-<uniquifier > {
+	font-family: "Bitcount Prop Double", system-ui;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
+}
+p {
+	color: rgba(0, 0, 10, 0.925);
+}
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px gray;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: blueviolet;
+	padding: 10px;
+}
